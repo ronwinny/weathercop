@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            WeatherCOP
+        </title>
+        <link rel="icon" href="Images/logo.png" sizes="32x16" type="image/png">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <!-- mobile stle------------------------------------------------- -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- tab stle------------------------------------------------- -->
+
+        <link rel="stylesheet" href="media.css" media="(min-width: 600px)">
+
+        <!-- laptop stle------------------------------------------------- -->
+
+        <!-- google fonts stle------------------------------------------------- -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/e7911acf16.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- main container ------------------------------------------------------------------->
+        <section id="main-container">
+
+
+        <!-- image container -------------------------------------------------------->
+        <article id="image-container" class="main-id-container">
+
+            <div id="search-container">
+                <input type="search" id="searchinput" placeholder="location"><button id="searchButton">search</button>
+            </div>
+
+            <div id="weatherdata-container" class="invalidenter">
+                <h2 id="weatherdegree"><sup>o</sup></h2>
+                <p id="weathername"></p>
+            </div>
+        </article>
+
+        <!-- data container --------------------------------------------------------->
+        <article id="data-container" class="main-id-container">
+
+            <div id="cityntime">
+                <h2 id="cityname" class="invalidenter"></h2>
+                <p id="currenttime"></p>
+            </div>
+            <div id="extradata" >
+                <p id="wind"  ><span class="extradataname">Wind</span><span class="extradatavalue" class="invalidenter"></span></p>
+                <p id="humidity"  ><span class="extradataname">Humidity</span><span class="extradatavalue" class="invalidenter"></span></p>
+
+            </div>
+        </article>
+
+        </section>
+    </body>
+    <!-- javascript stle------------------------------------------------- -->
+    <script defer src="script.js"></script>
+</html>

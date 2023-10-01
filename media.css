@@ -1,0 +1,45 @@
+@media screen and (min-width: 700px)
+{
+    #weatherdata-container
+    {
+        height:calc(1vw + 20rem);
+        width:calc(1vw + 20rem);
+    }
+    #image-container
+    {
+        background-position: 50% 50%;
+    } 
+    #weathername
+    {
+        font-size:2rem;
+    }
+    #data-container
+    {
+        flex-direction: row;
+        align-items: center;
+    }
+    /* #weathername
+    {
+    
+        font-size:1.8rem;
+        color:#fff;
+        text-transform: capitalize;
+    } */
+
+    #cityname
+    {
+        font-size:calc(1vw + 3rem);
+    }
+
+    #currenttime
+    {
+        font-size:calc(1vw + 1.8rem);
+
+    }
+    #wind,#humidity
+    {
+        width:26rem;
+        font-size:calc(1vw + 1.2rem);
+
+    }
+}
